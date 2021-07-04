@@ -1,7 +1,9 @@
 body {
   font-family: "Roboto Slab", serif;
+  margin: 0;
 }
 h1 {
+  text-align: initial;
   font-size: 40px;
 }
 .author-name {
@@ -9,6 +11,7 @@ h1 {
 }
 section {
   display: flex;
+  margin-bottom: 150px;
 }
 .half-width {
   width: 50%;
@@ -23,4 +26,13 @@ section {
   background-image: linear-gradient(orange, crimson);
   padding: 10px 30px;
   border-radius: 8px;
+}
+.top-banner {
+  background-image: url(images/top-banner.png);
+  background-repeat: no-repeat;
+}
+.bottom-banner {
+  background-image: url(images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
 }
