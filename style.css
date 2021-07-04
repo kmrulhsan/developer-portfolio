@@ -9,7 +9,7 @@ h1 {
 .author-name {
   color: tomato;
 }
-section {
+.flexible-container {
   display: flex;
   margin-bottom: 150px;
 }
